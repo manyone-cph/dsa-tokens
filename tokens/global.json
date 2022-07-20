@@ -1290,6 +1290,36 @@
             "type": "color"
           }
         }
+      },
+      "section": {
+        "light": {
+          "1": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "2": {
+            "value": "#9eeaf9",
+            "type": "color"
+          },
+          "3": {
+            "value": "#dee2e6",
+            "type": "color"
+          }
+        },
+        "dark": {
+          "1": {
+            "value": "#052c65",
+            "type": "color"
+          },
+          "2": {
+            "value": "#087990",
+            "type": "color"
+          },
+          "3": {
+            "value": "#343a40",
+            "type": "color"
+          }
+        }
       }
     },
     "logo": {
