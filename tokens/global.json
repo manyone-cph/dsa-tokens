@@ -1232,7 +1232,7 @@
             "type": "color"
           }
         },
-        "secondary": {
+        "inverted": {
           "base": {
             "value": "#ffffff",
             "type": "color"
@@ -1247,6 +1247,24 @@
           },
           "active": {
             "value": "#ced4da",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "base": {
+            "value": "#0dcaf0",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#0aa3c0",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#055160",
+            "type": "color"
+          },
+          "active": {
+            "value": "#032830",
             "type": "color"
           }
         }
@@ -1287,6 +1305,24 @@
           },
           "active": {
             "value": "#ced4da",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "base": {
+            "value": "#0dcaf0",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#0aa3c0",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#055160",
+            "type": "color"
+          },
+          "active": {
+            "value": "#032830",
             "type": "color"
           }
         }

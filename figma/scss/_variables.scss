@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 20 Jul 2022 19:06:40 GMT
+ * Generated on Sat, 23 Jul 2022 02:34:10 GMT
  */
 
 $size-breakpoint-widescreen: 160rem !default;
@@ -317,10 +317,14 @@ $color-text-link-primary-base: #0e6efd !default;
 $color-text-link-primary-hover: #0a58ca !default;
 $color-text-link-primary-pressed: #031633 !default;
 $color-text-link-primary-active: #052c65 !default;
-$color-text-link-secondary-base: #ffffff !default;
-$color-text-link-secondary-hover: #e9ecef !default;
-$color-text-link-secondary-pressed: #dee2e6 !default;
-$color-text-link-secondary-active: #ced4da !default;
+$color-text-link-inverted-base: #ffffff !default;
+$color-text-link-inverted-hover: #e9ecef !default;
+$color-text-link-inverted-pressed: #dee2e6 !default;
+$color-text-link-inverted-active: #ced4da !default;
+$color-text-link-secondary-base: #0dcaf0 !default;
+$color-text-link-secondary-hover: #0aa3c0 !default;
+$color-text-link-secondary-pressed: #055160 !default;
+$color-text-link-secondary-active: #032830 !default;
 $color-background-button-primary-base: #0e6efd !default;
 $color-background-button-primary-hover: #0a58ca !default;
 $color-background-button-primary-pressed: #031633 !default;
@@ -329,6 +333,10 @@ $color-background-button-inverted-base: #ffffff !default;
 $color-background-button-inverted-hover: #e9ecef !default;
 $color-background-button-inverted-pressed: #dee2e6 !default;
 $color-background-button-inverted-active: #ced4da !default;
+$color-background-button-secondary-base: #0dcaf0 !default;
+$color-background-button-secondary-hover: #0aa3c0 !default;
+$color-background-button-secondary-pressed: #055160 !default;
+$color-background-button-secondary-active: #032830 !default;
 $color-background-section-light-1: #ffffff !default;
 $color-background-section-light-2: #9eeaf9 !default;
 $color-background-section-light-3: #dee2e6 !default;
@@ -803,6 +811,12 @@ $tokens: (
           'pressed': $color-text-link-primary-pressed,
           'active': $color-text-link-primary-active
         ),
+        'inverted': (
+          'base': $color-text-link-inverted-base,
+          'hover': $color-text-link-inverted-hover,
+          'pressed': $color-text-link-inverted-pressed,
+          'active': $color-text-link-inverted-active
+        ),
         'secondary': (
           'base': $color-text-link-secondary-base,
           'hover': $color-text-link-secondary-hover,
@@ -824,6 +838,12 @@ $tokens: (
           'hover': $color-background-button-inverted-hover,
           'pressed': $color-background-button-inverted-pressed,
           'active': $color-background-button-inverted-active
+        ),
+        'secondary': (
+          'base': $color-background-button-secondary-base,
+          'hover': $color-background-button-secondary-hover,
+          'pressed': $color-background-button-secondary-pressed,
+          'active': $color-background-button-secondary-active
         )
       ),
       'section': (
