@@ -1418,5 +1418,9 @@
       "value": 60,
       "type": "borderRadius"
     }
+  },
+  "boom": {
+    "value": 12,
+    "type": "other"
   }
 }
