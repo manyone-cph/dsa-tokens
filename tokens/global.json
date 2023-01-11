@@ -633,10 +633,10 @@
           "value": "Regular"
         },
         "lineHeight": {
-          "value": 117.862
+          "value": 62.931
         },
         "fontSize": {
-          "value": 109.862
+          "value": 54.931
         },
         "letterSpacing": {
           "value": 0
@@ -944,7 +944,7 @@
         "type": "fontSizes"
       },
       "h1": {
-        "value": 109.862,
+        "value": 54.931,
         "type": "fontSizes"
       }
     },
