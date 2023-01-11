@@ -134,7 +134,7 @@
     },
     "icon": {
       "sm": {
-        "value": 32,
+        "value": 24,
         "type": "sizing"
       },
       "md": {
